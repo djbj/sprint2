@@ -7,8 +7,48 @@
 h1 {
 font-family: "Pattaya";
 font-size: 40px;
-margin: 20px;
+margin: 20px 20px 0 20px;
 }
+
+h2 {
+  font-family: "Helvetica";
+  font-size: 20px;
+  margin: 15px;
+  color: white;
+}
+
+p {
+  font-family: "arial";
+  font-size: 14px;
+  margin: 10px;
+}
+
+#textstyle {
+  font-family: "Leckerli One";
+  text-align: center;
+  font-style: italic;
+  margin-top: 30px;
+  color: red;
+}
+
+ul {
+  font-family: "arial";
+  font-size: 14px;
+  margin: 15px;
+  padding: 0;
+  z-index: 1000;
+  color: white;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  color: white;
+  font-family: "Arial";
+  font-weight: bold;
+  z-index: 1000;
+}
+
 .container-header {
   width: 100%;
   height: 300px;
@@ -19,18 +59,19 @@ margin: 20px;
 .text {
   padding: 10px;
   margin: 10px;
+  margin-top: 30px;
   width: 50%;
-  z-index: 1;
+  z-index: 2;
 }
 
-.image {
+/*.image {
   padding: 10px;
   margin: 10px;
   width: 90%;
   height: 90%;
   position: absolute;
   width: 30%;
-}
+}*/
 
 img {
   width: 30%;
@@ -39,27 +80,29 @@ img {
 }
 
 .container-recipe{
-  background-color: gray;
+  background-color: transparent;
   width: 100%;
-  height: 500px;
+  height: 320px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .box-left {
-  background-color: pink;
-  width: 20%;
+  background: rgba(255, 0, 0, 0.6);
+  width: 30%;
   margin: 10px 0;
+  z-index: -1;
 }
 
 .box-right {
-  background-color: violet;
+  background: rgba(76, 175, 80, 0.84);
   width: 60%;
   margin: 10px 0;
+  z-index: 1;
 }
 
 footer {
-  background-color: grey;
+  background-color: transparent;
   width: 100%;
   height: 100px;
   display: fixed;
@@ -72,6 +115,7 @@ footer {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  object-fit: contain;
 }
 
 .fa:hover {
@@ -82,10 +126,44 @@ footer {
   background: #3B5998;
   color: white;
    border-radius: 50%;
+   object-fit: contain;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
    border-radius: 50%;
+   object-fit: contain;
+}
+
+@media (max-width: 600px){
+  .container-recipe {
+    background-color: transparent;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-left {
+    width: 80%;
+    margin: 10px 0;
+  }
+  .box-right {
+    width: 80%;
+    margin: 10px 0;
+  }
+  img {
+    width: 50%;
+  }
+
+  #textstyle {
+    margin: 5px;
+  }
+}
+
+@media (min width: 600px) and (max-width: 900px) {
+  img {
+    width: 50%;
+  }
 }

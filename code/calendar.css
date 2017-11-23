@@ -22,3 +22,14 @@ body{
   width: 150px;
   margin: 20px;
   background-color: white;
+}
+
+.icon{
+  background: green;
+  height: auto;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}

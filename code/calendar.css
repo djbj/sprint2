@@ -25,11 +25,15 @@ body{
 }
 
 .icon{
-  background: green;
-  height: auto;
+  background:#fff;
+  width:150px;
+  height: 150px;
 }
 
 img{
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+  display: block;
 }

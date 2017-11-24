@@ -9,6 +9,8 @@ body{
   flex: 1 0 50%;
   box-sizing: border-box;
   padding: 2%;
+  perspective: 600px;
+  perspective-origin: 50% 50%;
 }
 
 @media (min-width: 380px) {
@@ -23,8 +25,13 @@ body{
   }
 }
 
+.imagebox:hover {
+  transform: rotate3d(0,1,0,-45deg);
+}
 
 .imagebox {
+  transition: transform 800ms;
+  transform-origin: left;
   background-color: #fff;
   padding-bottom: 100%;
   position: relative;

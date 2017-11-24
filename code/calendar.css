@@ -33,9 +33,9 @@ body{
 }
 
 img{
-  width: 110px;
+  width: 100px;
   height: auto;
-  padding-top: 20px;
+  padding-top: 25px;
   /*overflow: hidden;*/
   margin: auto;
   opacity: 0.8;

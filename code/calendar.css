@@ -25,7 +25,8 @@ body{
   }
 }
 
-.imagebox:hover {
+.imagebox:hover,
+.imagebox.open {
   transform: rotate3d(0,1,0,-45deg);
 }
 

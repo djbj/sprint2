@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Permanent+Marker');
+
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url("../images/karamellappelkaka.jpg");
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  margin: 20px 20px 0 20px;
+  text-align: center;
+}
+
+#headlinemob {
+  display: none;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  margin: 15px;
+  color: #fd003a;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin: 10px;
+  color: black;
+}
+
+#textstyle {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-style: italic;
+  margin-top: 30px;
+  color: #fd003a;
+}
+
+ul {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  margin: 15px;
+  padding: 0;
+  z-index: 1000;
+  color: black;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.container-header {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text {
+  padding: 10px;
+  margin: 10px 10px 10px 30px;
+  width: 50%;
+  z-index: 2;
+  background-color: #eeeeeee0;
+  color: #fd003a;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  object-fit: contain;
+  z-index: 100;
+  margin: 10px 10px 10px 30px;
+  border: 5px solid white;
+
+}
+
+.container-recipe{
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-left {
+  background: #eeeeeee0;
+  width: 30%;
+  margin: 10px 0;
+  z-index: 1;
+}
+
+.box-right {
+  background: #eeeeeee0;
+  width: 60%;
+  margin: 10px 0;
+  z-index: 1;
+}
+
+footer {
+  background-color: transparent;
+  width: 100%;
+  height: 100px;
+  display: fixed;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  object-fit: contain;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+   border-radius: 50%;
+   object-fit: contain;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+   border-radius: 50%;
+   object-fit: contain;
+}
+
+@media (max-width: 600px){
+  .container-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column-reverse;
+    overflow: hidden;
+    justify-content: space-around;
+  }
+
+  h1 {
+    display: none;
+  }
+
+#headlinemob {
+  display: block;
+}
+  .text {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    width: 80%;
+  }
+  .container-recipe {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .box-left {
+    width: 80%;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .box-right {
+    width: 80%;
+    margin: 10px 0;
+  }
+  img {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  #textstyle {
+    margin: 5px;
+  }
+  h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  img {
+    width: 40%;
+  }
+  .text {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    width: 40%;
+  }
+}

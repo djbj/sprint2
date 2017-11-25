@@ -1,12 +1,12 @@
-
 html{
   background-color: blue;
   height: 100%;
 }
+
 body{
   margin: 0;
-  padding; 0;
-  background-image: url(../images/Kivra-background-transparent.svg) no-repeat center center fixed;
+  padding: 0;
+  background: url(../images/Kivra-background-transparent.svg) no-repeat center center fixed;
 }
 
 

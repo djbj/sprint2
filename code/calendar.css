@@ -6,15 +6,15 @@ html{
 body{
   margin: 0;
   padding; 0;
-  background-image: url(../images/Kivra-background-transparent.svg) no-repeat center center fixed;
+  background: url(../images/Kivra-background-transparent.svg) no-repeat center center fixed;
 }
 
-/*
+
 .footer{
   background-color: #f1f3fd;
   width: 100%;
   height: 120px;
-}*/
+}
 
 .frame {
   flex: 1 0 50%;
@@ -40,10 +40,10 @@ body{
   position: relative;
   height: 100%;
   max-width: 1200px;
-  margin-top: 3%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5%;
+  margin-top: -2%;
   padding: 2%;
   display: flex;
   flex-wrap: wrap;
@@ -87,7 +87,10 @@ body{
 h1{
   color: #fff;
   text-align: center;
-  /*margin-top: 3%;*/
+  margin-top: 3%;
+  font-family: 'Coiny', cursive;
+  font-size: 4em;
+
 }
 
 .window{

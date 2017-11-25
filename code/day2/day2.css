@@ -2,13 +2,9 @@
   box-sizing: border-box;
 }
 
-html{
-  /*background: image(./images/Kivra-calendar-pattern.svg); */
-}
-
 body{
   margin: 5% 10% 10% 10%;
-  background-image: url(../images/Kivra-calendar-pattern.svg);
+  background-image: url(../../images/Kivra-calendar-pattern.svg);
   background-size: cover;
   height: 100%;
 }
@@ -26,6 +22,19 @@ h4{
   font-weight: 800;
   font-size: 1.1em;
   line-height: 1.2em;
+}
+
+.recepietip > p{
+  font-family: 'Luckiest Guy', cursive;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+
+h3{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 1.5em;
+  line-height: 1em;
+  letter-spacing: 1.5px;
 }
 
 p{
@@ -105,7 +114,16 @@ p{
   width: 60%;
   padding: 20px 30px 20px 0;
   border-right: 4px solid #0ca656;
-  /*margin: 10px 0;*/
+}
+
+.recepietip{
+  width: 90%;
+  height: auto;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: #0ca656;
+  margin: 30px 20px 20px 40px;
+  padding: 0 15px 0 15px;
 }
 
 footer{
@@ -115,6 +133,45 @@ footer{
   /*display: fixed;*/
   display: block;
 }
+
+.button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  /*font-family: 'Luckiest Guy', cursive;*/
+  color: #fff;
+  font-size: 3em;
+  background-color: #fea832;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2em;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 33px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #fe9923;
+}
+/*
+  background: lighten($red, 3%);
+  border: 1px solid darken($red, 4%);
+  box-shadow: 0px 2px 0 darken($red, 5%), 2px 4px 6px darken($red, 2%);
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: all 150ms linear;
+}
+
+.btn-3:hover {
+  background: darken($red, 1.5%);
+  border: 1px solid rgba(#000, .05);
+  box-shadow: 1px 1px 2px rgba(#fff, .2);
+  color: lighten($red, 18%);
+  text-decoration: none;
+  text-shadow: -1px -1px 0 darken($red, 9.5%);
+  transition: all 250ms linear;*/
 
 @media (max-width: 620px){
   body{

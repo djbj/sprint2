@@ -6,7 +6,7 @@ html{
 body{
   margin: 0;
   padding; 0;
-  background: url(../images/Kivra-background-transparent.svg) no-repeat center center fixed;
+  background: url(../images/Kivra-background-transparent.svg) no-repeat center bottom fixed;
 }
 
 
@@ -66,12 +66,20 @@ body{
 }
 
 .imagebox > p {
+  font-family: 'Ribeye', cursive;
   position: absolute;
-  bottom: 12%;
-  right: 12%;
+  bottom: 80%;
+  right: -6%;
   margin: 0;
-  font-size: 60px;
+  font-size: 1.7em;
   color: #f00;
+  background-color: black;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2.1em;
+  text-align: center;
+  border-radius: 50%;
 }
 
 .center {

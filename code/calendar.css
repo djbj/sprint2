@@ -1,8 +1,19 @@
+
+html{
+  background-color: blue;
+  height: 100%;
+}
 body{
   margin: 0;
   padding; 0;
-  background-color: blue;
-  height: 100%;
+  background-image: url(../images/Kivra-background-transparent.svg) no-repeat center center fixed;
+}
+
+
+.footer{
+  background-color: #f1f3fd;
+  width: 100%;
+  height: 120px;
 }
 
 .frame {
@@ -23,6 +34,21 @@ body{
   .frame {
     flex: 1 0 16.6667%;
   }
+}
+
+.container{
+  position: relative;
+  height: 100%;
+  max-width: 1200px;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .imagebox:hover,
@@ -58,24 +84,10 @@ body{
   background-repeat: no-repeat;
 }
 
-.container{
-  position: relative;
-  height: 100%;
-  max-width: 1200px;
-  margin-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5%;
-  padding: 2%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
 h1{
   color: #fff;
   text-align: center;
+  margin-top: 3%;
 }
 
 .window{

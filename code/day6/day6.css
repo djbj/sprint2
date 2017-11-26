@@ -4,17 +4,23 @@
 
 body{
   margin: 5% 10% 10% 10%;
-  background-image: url(../../images/Kivra-calendar-pattern.svg);
-  background-size: cover;
+  /*background-image: url(../../images/Kivra-calendar-pattern.svg);
+  background-size: cover;*/
+  background: linear-gradient(45deg, #fe9923, #c1001f, #ffcc33, #fff);
   height: 100%;
+  background-size: 400% 400%;
+-webkit-animation: Gradient 15s ease infinite;
+-moz-animation: Gradient 15s ease infinite;
+animation: Gradient 15s ease infinite;
 }
 
 h1{
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 2em;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
   line-height: 2.5em;
-  background-color: white;
+  /*background-color: white;*/
   letter-spacing: 1.5px;
+  color: #fff;
 }
 
 h4{
@@ -25,14 +31,15 @@ h4{
 }
 
 .recepietip > p{
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2em
   line-height: 1.5em;
   letter-spacing: 1px;
 }
 
 h3{
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 1.5em;
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
   line-height: 1em;
   letter-spacing: 1.5px;
 }
@@ -44,7 +51,7 @@ p{
 }
 
 .span-fontcolor{
-  color: #0ca656;
+  color: #000;
 }
 
 .span-bold{
@@ -104,7 +111,7 @@ p{
 }
 
 .box-left {
-  background-color: #0ca656;
+  background-color: #fea832;
   width: 40%;
   padding: 20px 30px 20px 0;
 }
@@ -113,15 +120,15 @@ p{
   background-color: #fff;
   width: 60%;
   padding: 20px 30px 20px 0;
-  border-right: 4px solid #0ca656;
+  /*border-right: 4px solid #fea832;*/
 }
 
 .recepietip{
   width: 90%;
   height: auto;
-  border-width: 2px;
+  border-width: 4px;
   border-style: dotted;
-  border-color: #0ca656;
+  border-color: #c1001f;
   margin: 30px 20px 20px 40px;
   padding: 0 15px 0 15px;
 }
@@ -140,7 +147,7 @@ footer{
   /*font-family: 'Luckiest Guy', cursive;*/
   color: #fff;
   font-size: 3em;
-  background-color: #fea832;
+  background-color: #c1001f;
   display: inline-block;
   width: 1.2em;
   height: 1.2em;
@@ -153,7 +160,43 @@ footer{
 }
 
 .button:hover {
-  background-color: #fe9923;
+  background-color: #fd003a;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 /*
   background: lighten($red, 3%);
@@ -185,16 +228,16 @@ footer{
   .mobile-top {
     background-color: #fff;
     width: 100%;
-    padding: 20px 0;
+    padding: 5px 20px;
   }
 
   .container-header {
-    height: 150px;
+    height: 220px;
     position: relative;
   }
 
   h1{
-    font-size: 1.7em;
+    font-size: 2.2em;
     line-height: 1.5em;
   }
   h4{
@@ -220,7 +263,7 @@ footer{
   }
 
   h1{
-    font-size: 1.8em;
+    font-size: 2.5em;
     line-height: 2.5em;
   }
 
@@ -233,6 +276,11 @@ footer{
   }
   .container-recipe{
   flex-direction: column;
+  }
+
+  .container-header {
+    height: 400px;
+    position: relative;
   }
 }
 

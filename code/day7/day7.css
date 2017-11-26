@@ -2,32 +2,14 @@
 
 * {
   box-sizing: border-box;
-}
-
-.background:before {
-  background-image: url("../images/c-tree.png");
-  content: ' ';
-   display: block;
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   z-index: 1;
-   opacity: 0.6;
-   background-repeat: no-repeat;
-   background-position: 50% 0;
-   -ms-background-size: cover;
-   -o-background-size: cover;
-   -moz-background-size: cover;
-   -webkit-background-size: cover;
-   background-size: cover;
+  background-color: #944427;
 }
 
 h1 {
 font-family: "Pattaya";
 font-size: 40px;
 margin: 20px 20px 0 20px;
+color: white;
 }
 
 #headlinemob {
@@ -39,6 +21,7 @@ h2 {
   font-size: 20px;
   margin: 15px;
   color: white;
+  background: none;
 }
 
 p {
@@ -46,14 +29,7 @@ p {
   font-size: 20px;
   margin: 10px;
   color: white;
-}
-
-#textstyle {
-  font-family: "Pattaya";
-  text-align: center;
-  font-style: italic;
-  margin-top: 30px;
-  color: red;
+  background: none;
 }
 
 ul {
@@ -63,6 +39,7 @@ ul {
   padding: 0;
   z-index: 1000;
   color: white;
+  background: none;
 }
 
 li {
@@ -72,6 +49,7 @@ li {
   font-family: "Arial";
   font-weight: bold;
   z-index: 1000;
+  background: none;
 }
 
 .container-header {
@@ -80,6 +58,9 @@ li {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border-style: dotted;
+  border-color: white;
+  border-bottom: 0;
 }
 
 .text {
@@ -87,7 +68,7 @@ li {
   margin: 10px 10px 10px 30px;
   width: 70%;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.60);
+  background: rgba(255, 255, 255, 0.60);
   font-color: white;
 }
 
@@ -100,11 +81,10 @@ li {
 /*}*/
 
 img {
-  width: 30%;
+  width: 20%;
   object-fit: contain;
   z-index: 100;
   margin: 10px 10px 10px 30px;
-
 }
 
 .container-recipe{
@@ -113,17 +93,20 @@ img {
   height: 320px;
   display: flex;
   justify-content: space-evenly;
+  border-style: dotted;
+  border-color: white;
+  border-top: 0;
 }
 
 .box-left {
-  background: rgba(255, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.6);
   width: 30%;
   margin: 10px 0;
   z-index: 1;
 }
 
 .box-right {
-  background: rgba(33, 150, 243, 0.8);
+  background: rgba(255, 255, 255, 0.6);
   width: 60%;
   margin: 10px 0;
   z-index: 1;

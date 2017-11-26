@@ -4,25 +4,10 @@
   box-sizing: border-box;
 }
 
-.background:before {
-  background-image: url("../images/c-tree.png");
-  content: ' ';
-   display: block;
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   z-index: 1;
-   opacity: 0.6;
-   background-repeat: no-repeat;
-   background-position: 50% 0;
-   -ms-background-size: cover;
-   -o-background-size: cover;
-   -moz-background-size: cover;
-   -webkit-background-size: cover;
-   background-size: cover;
+.background {
+  background-image: url("https://studio.code.org/media?u=http%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Faec6b3_f97276cfd4a347d9a5a10c090ec6f844.jpg_srz_389_554_85_22_0.50_1.20_0.00_jpg_srz");
 }
+
 
 h1 {
 font-family: "Pattaya";
@@ -32,20 +17,24 @@ margin: 20px 20px 0 20px;
 
 #headlinemob {
   display: none;
+  text-shadow: white 0px 0px 10px;
+
 }
 
 h2 {
   font-family: "Helvetica";
   font-size: 20px;
   margin: 15px;
-  color: white;
+  color: #020202;
+  text-shadow: white 0px 0px 10px;
 }
 
 p {
   font-family: "arial";
   font-size: 20px;
   margin: 10px;
-  color: white;
+  color: #020202;
+  text-shadow: white 0px 0px 10px;
 }
 
 #textstyle {
@@ -54,6 +43,8 @@ p {
   font-style: italic;
   margin-top: 30px;
   color: red;
+  text-shadow: white 0px 0px 10px;
+
 }
 
 ul {
@@ -62,16 +53,19 @@ ul {
   margin: 15px;
   padding: 0;
   z-index: 1000;
-  color: white;
+  color: #020202;
+  text-shadow: white 0px 0px 10px;
 }
 
 li {
   list-style: none;
   margin: 0;
-  color: white;
+  color: #020202;
   font-family: "Arial";
   font-weight: bold;
   z-index: 1000;
+  text-shadow: white 0px 0px 10px;
+  font-size: 15px;
 }
 
 .container-header {
@@ -87,17 +81,10 @@ li {
   margin: 10px 10px 10px 30px;
   width: 70%;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.60);
+  background: rgba(255, 255, 0, 0.8);
   font-color: white;
+  text-shadow: white 0px 0px 10px;
 }
-
-/*.image {
-  padding: 10px;
-  margin: 10px;
-  width: 90%;
-  height: 90%;
-  /*position: absolute;*/
-/*}*/
 
 img {
   width: 30%;
@@ -110,20 +97,20 @@ img {
 .container-recipe{
   background-color: transparent;
   width: 100%;
-  height: 320px;
+  /*height: 320px;*/
   display: flex;
   justify-content: space-evenly;
 }
 
 .box-left {
-  background: rgba(255, 0, 0, 0.6);
+  background: rgba(255, 255, 0, 0.8);
   width: 30%;
   margin: 10px 0;
   z-index: 1;
 }
 
 .box-right {
-  background: rgba(33, 150, 243, 0.8);
+  background: rgba(255, 255, 0, 0.8);
   width: 60%;
   margin: 10px 0;
   z-index: 1;
@@ -182,6 +169,8 @@ footer {
 
 #headlinemob {
   display: block;
+  text-shadow: white 0px 0px 10px;
+  font-size: 26px;
 }
   .text {
     padding: 10px;

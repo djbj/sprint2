@@ -54,6 +54,21 @@ ol, ul, p {
   background-size: cover;
 }
 
+.button {
+  font-family: 'Luckiest Guy', cursive;
+  color: #fff;
+  font-size: 1em;
+  color: #fd003a;
+  background-color: none;
+  text-align: center;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #1f3581;
+}
+
 .container-recipe {
   margin-top: 30px;
   padding-top: 30px;

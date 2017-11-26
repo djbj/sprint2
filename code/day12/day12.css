@@ -90,6 +90,22 @@ img {
 
 }
 
+.button {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+  color: #fe9923;
+  background-color: none;
+  text-align: center;
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #c1001f;
+}
+
 .container-recipe{
   width: 100%;
   height: 320px;

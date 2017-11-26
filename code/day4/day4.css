@@ -77,6 +77,20 @@ img {
   background-size: cover;
   border: 2px solid white;
 }
+.button {
+  font-family: 'Great Vibes', cursive;
+  color: #fff;
+  font-size: 2em;
+  color: #c1001f;
+  background-color: none;
+  text-align: center;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #fd003a;
+}
 
 .container-recipe {
   margin-top: 30px;

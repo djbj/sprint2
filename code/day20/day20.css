@@ -85,6 +85,23 @@ img {
   border: 2px solid #994c0f;
 }
 
+.button {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 400;
+  color: #713708;
+  font-size: 2em;
+  display: inline-block;
+  line-height: 1.2em;
+  text-align: center;
+  margin-left: 33px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #0ca656;
+}
+
 .container-recipe {
   margin-top: 30px;
   padding-top: 30px;

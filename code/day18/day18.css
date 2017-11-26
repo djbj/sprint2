@@ -89,7 +89,7 @@ p{
   background: url(http://kryddburken.se/wp-content/uploads/2011/09/chokladrutor_kokost%C3%A4cke.jpg) center center;
   background-size: cover;
   width: 80%;
-  height: 500px;
+  height: 600px;
   position: relative;
   margin-left: 10%;
   margin-right: 10%;
@@ -231,11 +231,11 @@ footer{
   .mobile-top {
     background-color: #fff;
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 20px;
   }
 
   .container-header {
-    height: 150px;
+    height: 250px;
     position: relative;
   }
 
@@ -268,6 +268,11 @@ footer{
   h1{
     font-size: 1.8em;
     line-height: 2.5em;
+  }
+
+  .container-header {
+    height: 375px;
+    position: relative;
   }
 
   .box-left {

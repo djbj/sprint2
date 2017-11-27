@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("../../images/christmas-background-green.jpg");
+  background-size: cover;
+  color: #713708;
+}
+
+body {
+  background-color: white;
+  margin: 5% 10%;
+  border: 5px solid #713708;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-header img {
+  width: 100%;
+  background-size: cover;
+}
+
+h1{
+  font-family: 'Vidaloka', serif;
+  font-size: 400%;
+  margin: -15% 0 0 0;
+  padding: 2% 10% 7% 10%;
+  text-align: center;
+  background-color: white;
+}
+
+h3 {
+  font-family: 'Vidaloka', serif;
+  font-size: 200%;
+  margin: 30px 10px 5px 10px;
+  text-align: center;
+}
+
+ol, ul, p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-header {
+  border-color: white;
+  width: 100%;
+}
+
+.container-header img {
+  width: 100%;
+  background-size: cover;
+}
+
+.button {
+  font-family: 'Vidaloka', serif;
+  font-weight: 400;
+  color: #713708;
+  font-size: 2em;
+  display: inline-block;
+  line-height: 1.2em;
+  text-align: center;
+  margin-left: 33px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #0ca656;
+}
+
+.container-recipe {
+  margin-top: 30px;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-left {
+  background-color: white;
+  width: 30%;
+  margin: 10px 0 0 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.box-left li {
+  list-style: none;
+  margin: 0;
+}
+
+.box-right {
+  background-color: white;
+  width: 70%;
+  margin: 10px 0;
+  padding-left: 5px;
+}
+
+ol, ul {
+  padding: 0;
+  line-height: 150%;
+}
+ol {
+  margin-left: 5%;
+}
+
+footer{
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  display: fixed;
+}
+
+@media (max-width: 620px){
+  h3  {
+    font-size: 150%;
+  }
+  h1 {
+    font-size: 170%;
+    padding: 13%;
+  }
+  .container-header, .container-recipe {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-left, .box-right, .text-1, img {
+    width: 80%;
+  }
+  img {
+    margin-bottom: 10px;
+  }
+  footer {
+    width:100%;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 800px){
+  h3, li {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 200%;
+    padding: 5%;
+  }
+}

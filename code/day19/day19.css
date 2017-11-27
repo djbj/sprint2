@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma|Chewy|Indie+Flower|Leckerli+One|Pacifico|Pattaya');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+#snow {
+  margin: 0;
+	background: lightgreen;
+	font-family: Androgyne;
+	background-image:
+  url("../../images/hallon.png"),
+  url("../../images/hallon2.png");
+	height: 100%;
+	left: 0;
+	/*position: absolute;*/
+	top: 0;
+	width: 100%;
+	z-index:-10;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+h1 {
+font-family: "Pattaya";
+font-size: 40px;
+margin: 20px 20px 0 20px;
+color: #e91e63;
+background: lightgreen;
+}
+
+#headlinemob {
+  display: none;
+}
+
+h2 {
+  font-family: "Helvetica";
+  font-size: 20px;
+  margin: 15px;
+  color: black;
+}
+
+p {
+  font-family: "arial";
+  font-size: 20px;
+  margin: 10px;
+  color: black;
+}
+
+#textstyle {
+  font-family: "Pattaya";
+  text-align: center;
+  font-style: italic;
+  margin-top: 30px;
+  color: red;
+}
+
+ul {
+  font-family: "arial";
+  font-size: 14px;
+  margin: 15px;
+  padding: 0;
+  z-index: 1000;
+  color: black;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  color: black;
+  font-family: "Arial";
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.container-header {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text {
+  padding: 10px;
+  margin: 10px 10px 10px 30px;
+  width: 70%;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.8);
+  font-color: black;
+}
+
+img {
+  width: 30%;
+  object-fit: contain;
+  z-index: 100;
+  margin: 10px 10px 10px 30px;
+
+}
+
+.container-recipe{
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-left {
+  background: rgba(255, 255, 255, 0.8);
+  width: 30%;
+  margin: 10px 0;
+  z-index: 1;
+}
+
+.box-right {
+  background: rgba(255, 255, 255, 0.8);
+  width: 60%;
+  margin: 10px 0;
+  z-index: 1;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: lightgreen;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  object-fit: contain;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+   border-radius: 50%;
+   object-fit: contain;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+   border-radius: 50%;
+   object-fit: contain;
+}
+
+@media (max-width: 600px){
+  .container-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-around;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  #headlinemob {
+  display: flex;
+  }
+
+  .text {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    width: 80%;
+  }
+
+  .container-recipe {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .box-left {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .box-right {
+    width: 80%;
+    margin: 10px 0;
+    z-index: 1;
+  }
+
+  img {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  #textstyle {
+    margin: 5px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  img {
+    width: 40%;
+  }
+  .text {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    width: 40%;
+  }
+}

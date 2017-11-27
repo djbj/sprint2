@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 5% 10% 10% 10%;
+  background-image: url(../../images/Kivra-calendar-pattern.svg);
+  background-size: cover;
+  height: 100%;
+}
+
+h1{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2em;
+  line-height: 2.5em;
+  background-color: white;
+  letter-spacing: 1.5px;
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+
+.recepietip > p{
+  font-family: 'Luckiest Guy', cursive;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+
+h3{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 1.5em;
+  line-height: 1em;
+  letter-spacing: 1.5px;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+
+.span-fontcolor{
+  color: #0ca656;
+}
+
+.span-bold{
+  font-weight: 800;
+}
+
+.box-left ul{
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  line-height: 1.7em;
+  color: #fff;
+}
+
+.box-right ul{
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  line-height: 1.7em;s
+}
+
+.container-header {
+  background: url(https://cdn-rdb.arla.com/Files/arla-se/3532339018/4d4c3a6b-bd4e-49a5-be21-c9b141511cc8.jpg?mode=crop&w=1680&h=750&scale=both&ak=c9454149&hm=69d28bce);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.text {
+  background-color: white;
+  opacity: 0.7;
+  padding: 5px 20px 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: auto;
+  position: absolute;
+  bottom: 30px;
+  z-index: 1;
+}
+
+.image {
+  background: blue;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+}
+
+.container-recipe{
+  background-color: gray;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-left {
+  background-color: #0ca656;
+  width: 40%;
+  padding: 20px 30px 20px 0;
+}
+
+.box-right {
+  background-color: #fff;
+  width: 60%;
+  padding: 20px 30px 20px 0;
+  border-right: 4px solid #0ca656;
+}
+
+.recepietip{
+  width: 90%;
+  height: auto;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: #0ca656;
+  margin: 30px 20px 20px 40px;
+  padding: 0 15px 0 15px;
+}
+
+footer{
+  background-color: #c1001f;
+  width: 100%;
+  height: 100px;
+  /*display: fixed;*/
+  display: block;
+}
+
+.button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  /*font-family: 'Luckiest Guy', cursive;*/
+  color: #fff;
+  font-size: 3em;
+  background-color: #fea832;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2em;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 33px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #fe9923;
+}
+/*
+  background: lighten($red, 3%);
+  border: 1px solid darken($red, 4%);
+  box-shadow: 0px 2px 0 darken($red, 5%), 2px 4px 6px darken($red, 2%);
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: all 150ms linear;
+}
+
+.btn-3:hover {
+  background: darken($red, 1.5%);
+  border: 1px solid rgba(#000, .05);
+  box-shadow: 1px 1px 2px rgba(#fff, .2);
+  color: lighten($red, 18%);
+  text-decoration: none;
+  text-shadow: -1px -1px 0 darken($red, 9.5%);
+  transition: all 250ms linear;*/
+
+@media (max-width: 620px){
+  body{
+    margin: 15% 5% 15% 5%;
+  }
+
+  .text {
+    display: none;
+  }
+
+  .mobile-top {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .container-header {
+    height: 150px;
+    position: relative;
+  }
+
+  h1{
+    font-size: 1.7em;
+    line-height: 1.5em;
+  }
+  h4{
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+
+  .box-left {
+    width: 100%;
+  }
+
+  .box-right {
+    width: 100%;
+  }
+  .container-recipe{
+  flex-direction: column;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 800px){
+  .mobile-top {
+    display: none;
+  }
+
+  h1{
+    font-size: 1.8em;
+    line-height: 2.5em;
+  }
+
+  .box-left {
+    width: 100%;
+  }
+
+  .box-right {
+    width: 100%;
+  }
+  .container-recipe{
+  flex-direction: column;
+  }
+}
+
+@media (min-width: 801px){
+  .mobile-top {
+    display: none;
+  }
+
+}

@@ -9,13 +9,7 @@
 }
 
 body {
-<<<<<<< HEAD
-  background-image: url('../images/christmasBackground.jpeg');
-  /*/Users/BjornJohnson/Technigo/sprint-2-company-2/images/christmasBackground.jpeg*/
-  /*images/christmasBackground.jpeg*/
-=======
   background-image: url('../../images/christmasBackground.jpeg');
->>>>>>> 3cdea95be57a6c68345e215b8030e03e5e021f65
   margin: 3% 3% 3% 3%;
 }
 
@@ -100,7 +94,7 @@ footer {
   opacity: .75;
   width: 100%;
   height: 100px;
-  display: fixed;
+  display: relative;
   border-radius: 50px;
   margin-top: 3%;
 }

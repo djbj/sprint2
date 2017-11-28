@@ -71,7 +71,7 @@ ol, ul, p {
   border-radius: 20% 10%;
 }
 
-img {
+.container-header img {
   width: 50%;
   border-radius: 20% 10%;
   background-size: cover;
@@ -149,6 +149,13 @@ footer{
   margin: 5px;
 }
 
+footer img {
+  max-height: 50px;
+  max-width: 50px;
+  border-radius: 10px;
+}
+
+
 @media (max-width: 620px){
   h2, li,  {
     font-size: 100%;
@@ -163,17 +170,24 @@ footer{
   .box-left, .box-right, .text-1, img {
     width: 80%;
   }
-  img {
+  .container-header img {
     margin-bottom: 10px;
   }
   footer {
     width:100%;
   }
+  .social-media {
+    padding: 0;
+  }
 }
+
 
 
 @media (min-width: 621px) and (max-width: 800px){
   h2, li {
     font-size: 100%;
+  }
+  .social-media {
+    padding: 0 10%;
   }
 }

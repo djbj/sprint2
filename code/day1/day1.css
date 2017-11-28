@@ -9,9 +9,13 @@
 }
 
 body {
+<<<<<<< HEAD
   background-image: url('../images/christmasBackground.jpeg');
   /*/Users/BjornJohnson/Technigo/sprint-2-company-2/images/christmasBackground.jpeg*/
   /*images/christmasBackground.jpeg*/
+=======
+  background-image: url('../../images/christmasBackground.jpeg');
+>>>>>>> 3cdea95be57a6c68345e215b8030e03e5e021f65
   margin: 3% 3% 3% 3%;
 }
 
@@ -43,7 +47,7 @@ header {
 }
 
 .col22 {
-  background: url('.././images/saffrankolasnittar.jpg');
+  background: url('../../images/saffrankolasnittar.jpg');
   background-size: cover;
   width: 50%;
   height: auto;

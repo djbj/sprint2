@@ -177,15 +177,3 @@ function getPosition(offset, size) {
 function setResetFlag(e) {
 	resetPosition = true;
 }
-
-
-
-
-
-// window.onload = textSummer
-//
-// const summer = document.getElementById('summer')
-//
-// const textSummer = () => {
-//   style.
-// }

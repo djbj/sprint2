@@ -1,5 +1,5 @@
 html{
-  background-color: blue;
+  background-color: #050597;
   height: 100%;
 }
 body{
@@ -50,9 +50,22 @@ body{
   align-items: center;
 }
 
+.imageback {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  bottom: 12%;
+  right: 12%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 200px;
+  max-height: 200px;
+}
+
 .imagebox:hover,
 .imagebox.open {
-  transform: rotate3d(0,1,0,-45deg);
+  transform: rotate3d(0,1,0,-90deg);
+  display: block;
 }
 
 .imagebox {
@@ -91,13 +104,12 @@ body{
   background-repeat: no-repeat;
 }
 
-h1{
+h1 {
   color: #fff;
   text-align: center;
   margin-top: 3%;
   font-family: 'Coiny', cursive;
   font-size: 4em;
-
 }
 
 .window{

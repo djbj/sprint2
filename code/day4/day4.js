@@ -180,8 +180,6 @@ function setResetFlag(e) {
 
 
 
-
-
 // window.onload = textSummer
 //
 // const summer = document.getElementById('summer')

@@ -9,7 +9,9 @@
 }
 
 body {
-  background-image: url('.././images/christmasBackground.jpeg');
+  background-image: url('../images/christmasBackground.jpeg');
+  /*/Users/BjornJohnson/Technigo/sprint-2-company-2/images/christmasBackground.jpeg*/
+  /*images/christmasBackground.jpeg*/
   margin: 3% 3% 3% 3%;
 }
 

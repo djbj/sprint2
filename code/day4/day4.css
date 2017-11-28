@@ -14,7 +14,10 @@ body {
   border: 2px solid white;
 }
 
-#snowflakeContainer {
+/*#sky {
+  z-index: -1000;
+}*/
+/*#snowflakeContainer {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -31,7 +34,7 @@ body {
 }
 .snowflake:hover {
     cursor: default;
-}
+}*/
 
 .day4 h1 {
   font-family: 'Great Vibes', cursive;

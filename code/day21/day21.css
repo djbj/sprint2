@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url('.././images/christmasBackground.jpeg');
+  background-image: url('../../images/christmasBackground.jpeg');
   margin: 3% 3% 3% 3%;
 }
 
@@ -41,7 +41,7 @@ header {
 }
 
 .col22 {
-  background: url('.././images/rabarberpaj2.jpg');
+  background: url('../../images/rabarberpaj2.jpg');
   background-size: cover;
   width: 50%;
   height: auto;

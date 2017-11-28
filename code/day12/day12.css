@@ -81,7 +81,7 @@ li {
   text-align: center;
 }
 
-img {
+.header-container img {
   width: 50%;
   object-fit: contain;
   z-index: 100;
@@ -128,39 +128,32 @@ img {
   z-index: 1;
 }
 
-footer {
-  background-color: transparent;
+footer{
   width: 100%;
   height: 100px;
   display: fixed;
 }
 
+.social-media {
+  background: #eeeeeee0;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 40%;
+}
+
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
   text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  object-fit: contain;
+  color: #c1001f;
+  margin: 5px;
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-   border-radius: 50%;
-   object-fit: contain;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-   border-radius: 50%;
-   object-fit: contain;
+footer img {
+  max-height: 50px;
+  max-width: 50px;
+  border-radius: 10px;
 }
 
 @media (max-width: 600px){
@@ -205,11 +198,10 @@ footer {
     width: 80%;
     margin: 10px 0;
   }
-  img {
+  .header-container img {
     width: 80%;
     margin: 10px 0;
   }
-
   #textstyle {
     margin: 5px;
   }
@@ -217,10 +209,16 @@ footer {
     font-size: 25px;
     text-align: center;
   }
+  footer {
+    width:100%;
+  }
+  .social-media {
+    margin: 0 5%;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
-  img {
+  .header-container img {
     width: 40%;
   }
   .text {
@@ -228,5 +226,12 @@ footer {
     margin: 10px;
     margin-top: 10px;
     width: 40%;
+  }
+  .social-media {
+    margin: 0 10%;
+    justify-content: space-between;
+  }
+  ul {
+    font-size: 16px;
   }
 }

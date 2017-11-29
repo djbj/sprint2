@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  background-image: url("http://www.psdgraphics.com/file/2016/winter-background.jpg");
+  background-image: url("http://marginalrevolution.com/wp-content/uploads/2017/10/snowflakes-1.jpg");
   background-size: cover;
   color: white;
 }
@@ -14,10 +14,7 @@ body {
   border: 2px solid white;
 }
 
-/*#sky {
-  z-index: -1000;
-}*/
-/*#snowflakeContainer {
+#snowflakeContainer {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -34,7 +31,7 @@ body {
 }
 .snowflake:hover {
     cursor: default;
-}*/
+}
 
 .day4 h1 {
   font-family: 'Great Vibes', cursive;

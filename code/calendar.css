@@ -54,7 +54,6 @@ body{
 }
 
 .container{
-  position: relative;
   height: 100%;
   max-width: 1200px;
   margin-left: auto;
@@ -65,7 +64,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .imageback {
@@ -105,8 +104,8 @@ body{
   right: -6%;
   margin: 0;
   font-size: 1.7em;
-  color: #f00;
-  background-color: black;
+  color: white;
+  background-color: #c1001f;
   display: inline-block;
   width: 2em;
   height: 2em;
@@ -128,9 +127,10 @@ body{
 h1 {
   color: #fff;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 5%;
   font-family: 'Coiny', cursive;
-  font-size: 4em;
+  font-size: 3em;
+  padding-top: 5%;
 }
 
 .window{
@@ -138,7 +138,6 @@ h1 {
   width: 150px;
   margin: 20px;
   background-color: white;
-  height: 150px;
   align-self: auto;
 }
 
@@ -172,11 +171,10 @@ h1 {
   height: 50px;
 }
 
-
 .box-social{
   width: auto;
   height: 50px;
-  }
+}
 
 /*social media icons*/
 .box-social ul{

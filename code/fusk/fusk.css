@@ -5,3 +5,21 @@ img {
 h1 {
   color: #c1001f;
 }
+
+a:link {
+    color: #c1001f;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #c1001f;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+
+    background-color: transparent;
+    text-decoration: underline;
+}

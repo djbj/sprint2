@@ -23,17 +23,7 @@ body{
   perspective-origin: 50% 50%;
 }
 
-@media (min-width: 380px) {
-  .frame {
-    flex: 1 0 25%;
-  }
-}
 
-@media (min-width: 1024px) {
-  .frame {
-    flex: 1 0 16.6667%;
-  }
-}
 
 .container{
   position: relative;
@@ -136,4 +126,16 @@ img{
   padding-top: 25px;
   margin: auto;
   opacity: 0.8;
+}
+
+@media (min-width: 380px) {
+  .frame {
+    flex: 1 0 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .frame {
+    flex: 1 0 16.6667%;
+  }
 }

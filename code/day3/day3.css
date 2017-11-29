@@ -4,24 +4,44 @@
   box-sizing: border-box;
 }
 
-.background:before {
-  background-image: url("../images/c-tree.png");
-  content: ' ';
-   display: block;
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   z-index: 1;
-   opacity: 0.6;
-   background-repeat: no-repeat;
-   background-position: 50% 0;
-   -ms-background-size: cover;
-   -o-background-size: cover;
-   -moz-background-size: cover;
-   -webkit-background-size: cover;
-   background-size: cover;
+
+#snow {
+	background: pink;
+	font-family: Androgyne;
+	background-image:
+  url("../../images/bulle1.png"),
+  url("../../images/bulle2.png"),
+  url("../../images/bulle3.png");
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:-10;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
 
 h1 {
@@ -38,14 +58,14 @@ h2 {
   font-family: "Helvetica";
   font-size: 20px;
   margin: 15px;
-  color: white;
+  color: grey;
 }
 
 p {
   font-family: "arial";
   font-size: 20px;
   margin: 10px;
-  color: white;
+  color: grey;
 }
 
 #textstyle {
@@ -62,13 +82,13 @@ ul {
   margin: 15px;
   padding: 0;
   z-index: 1000;
-  color: white;
+  color: grey;
 }
 
 li {
   list-style: none;
   margin: 0;
-  color: white;
+  color: grey;
   font-family: "Arial";
   font-weight: bold;
   z-index: 1000;
@@ -87,24 +107,15 @@ li {
   margin: 10px 10px 10px 30px;
   width: 70%;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.60);
-  font-color: white;
+  background: rgba(255, 255, 255, 0.6);
+  font-color: grey;
 }
-
-/*.image {
-  padding: 10px;
-  margin: 10px;
-  width: 90%;
-  height: 90%;
-  /*position: absolute;*/
-/*}*/
 
 img {
   width: 30%;
   object-fit: contain;
   z-index: 100;
   margin: 10px 10px 10px 30px;
-
 }
 
 .container-recipe{
@@ -116,14 +127,14 @@ img {
 }
 
 .box-left {
-  background: rgba(255, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.6);
   width: 30%;
   margin: 10px 0;
   z-index: 1;
 }
 
 .box-right {
-  background: rgba(33, 150, 243, 0.8);
+  background: rgba(255, 255, 255, 0.6);
   width: 60%;
   margin: 10px 0;
   z-index: 1;

@@ -53,17 +53,6 @@ body{
   perspective-origin: 50% 50%;
 }
 
-@media (min-width: 380px) {
-  .frame {
-    flex: 1 0 25%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .frame {
-    flex: 1 0 16.6667%;
-  }
-
 .container{
   position: relative;
   height: 100%;
@@ -238,3 +227,14 @@ h1 {
 .box-social ul li a{
   color: #fff;
 }
+
+@media (min-width: 380px) {
+  .frame {
+    flex: 1 0 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .frame {
+    flex: 1 0 16.6667%;
+  }

@@ -62,11 +62,14 @@ body{
   max-height: 200px;
 }
 
-.imagebox:hover,
+/*.imagebox:hover,
 .imagebox.open {
-  transform: rotate3d(0,1,0,-90deg);
-  display: block;
-}
+  # transform: rotate3d(0,1,0,-90deg);
+  # display: block;
+}*/
+
+.open {transform: rotate3d(0,1,0,-90deg);
+  display: block;}
 
 .imagebox {
   transition: transform 800ms;

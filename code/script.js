@@ -5,3 +5,12 @@ document.links.forEach(function (element) {
     element.href = '#';
   }
 });
+
+
+var boxes = document.querySelectorAll('.imagebox');
+for (var i = 0; i < boxes.length; i++){
+	var box = boxes[i];
+	box.addEventListener("click", function(){
+	this.classList.add("open");
+});
+}

@@ -89,17 +89,42 @@ header p {
   color: white;
 }
 
+
 footer {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+}
+.goBack {
   background-color: #0ca656;
   opacity: .75;
-  width: 100%;
+  width: 50%;
   height: 100px;
-  display: relative;
+  border-radius: 50px;
+  margin-top: 3%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.goBackSign {
+  background-image: url('../../images/goBackButton.png');
+  height: 100px;
+
+}
+
+.socialMedia {
+  background-color: #0ca656;
+  opacity: .75;
+  width: 50%;
+  height: 100px;
   border-radius: 50px;
   margin-top: 3%;
 }
 
-footer p {
+footer p,
+footer .goBackText{
   text-align: center;
   color: white;
   padding-top: 3%;

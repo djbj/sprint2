@@ -1,3 +1,9 @@
+.flexbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
 img {
   background-position: center;
 }
@@ -22,4 +28,14 @@ a:hover {
 
     background-color: transparent;
     text-decoration: underline;
+}
+
+button {
+  height: 50px;
+  widht: 200px;
+  background-color: #c1001f;
+}
+
+#button {
+color: white;
 }

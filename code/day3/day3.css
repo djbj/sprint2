@@ -115,7 +115,6 @@ li {
 img {
   width: 20%;
   object-fit: contain;
-  /*z-index: 100;*/
   margin: 10px 10px 10px 30px;
 }
 

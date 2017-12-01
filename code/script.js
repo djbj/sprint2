@@ -8,15 +8,15 @@ lolLinks.forEach(function (element) {
     const today = new Date()
     const boxen = element.parentElement.querySelector('.imagebox')
 
-      if (element.id > 9) {
+      if (element.id > today.getDate()) {
         boxen.addEventListener("click", function() {
         window.open("fusk/fusk.html");
         })
-      } else if (element.id === "9"){
+      } else if (element.id == today.getDate()){
         boxen.addEventListener("click", function() {
         this.classList.add("open")
         })
-      } else if (element.id < 9) {
+      } else if (element.id < today.getDate()) {
         boxen.classList.add("open")
     }
   }
